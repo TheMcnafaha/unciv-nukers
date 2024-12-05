@@ -208,6 +208,47 @@
     "uniqueTo": "Nukers"
   },
   {
+    "name": "V1 Focused Nuke",
+    "unitType": "Missile",
+    "movement": 10,
+    "strength": 1000,
+    "rangedStrength": 1000,
+    "range": 4,
+    "cost": 100,
+    "uniques": ["Nuclear weapon of Strength [1]", "Blast radius [1]"],
+    "attackSound": "missile",
+    "upgradesTo": "V2 Focused Nuke",
+    "uniqueTo": "Nukers"
+  },
+  {
+    "name": "V2 Focused Nuke",
+    "unitType": "Missile",
+    "movement": 10,
+    "strength": 1000,
+    "rangedStrength": 1000,
+    "range": 6,
+    "cost": 300,
+    "uniques": ["Nuclear weapon of Strength [3]", "Blast radius [1]"],
+    "requiredTech": "Gunpowder",
+    "attackSound": "missile",
+    "upgradesTo": "V3 Focused Nuke",
+    "uniqueTo": "Nukers"
+  },
+  {
+    "name": "V3 Focused Nuke",
+    "unitType": "Missile",
+    "movement": 10,
+    "strength": 1000,
+    "rangedStrength": 1000,
+    "range": 11,
+    "cost": 300,
+    "uniques": ["Nuclear weapon of Strength [3]", "Blast radius [1]"],
+    "requiredTech": "Gunpowder",
+    "attackSound": "missile",
+    "uniqueTo": "Nukers",
+    "requiredTech": "Combined Arms"
+  },
+  {
     "name": "Magnum Opus",
     "unitType": "Missile",
     "movement": 10,
@@ -217,10 +258,10 @@
     "cost": 5000,
     "requiredTech": "Advanced Ballistics",
     "uniques": [
-      "Nuclear weapon of Strength [5]",
+      "Nuclear weapon of Strength [7]",
       "Only available <if [Manhattan Project] is constructed>",
-      "Blast radius [5]",
-      "Consumes [5] [Uranium]"
+      "Blast radius [7]",
+      "Consumes [7] [Uranium]"
     ],
     "attackSound": "missile",
     "uniqueTo": "Nukers"
