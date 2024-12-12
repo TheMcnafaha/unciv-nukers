@@ -3,28 +3,32 @@
     "name": "Launcher",
     "unitType": "Scout",
     "strength": 10,
-    "movement": 6,
+    "movement": 10,
     "interceptRange": 1,
     "cost": 60,
     "uniques": [
-      "[60]% chance to intercept air attacks",
-      "Can build [Airfield] improvements on tiles",
-      "Can carry [2] [Ballistic] units",
-      "Can carry [2] extra [Aircraft] units <in [Airfield] tiles>"
+      "Can see over obstacles",
+      "[+4] Sight",
+      "[+1] Sight <when [Embarked]>",
+      "May Paradrop up to [10] tiles from inside friendly territory",
+      "Can move after attacking",
+      "Never appears as a Barbarian unit"
     ],
-    "uniqueTo": "Nukers"
+    "uniqueTo": "Nukers",
+    "promotions": ["Camouflage"]
   },
   {
     "name": "Naval Launcher",
     "unitType": "Submarine",
-    "movement": 6,
-    "strength": 10,
-    "range": 3,
-    "rangedStrength": 15,
-    "cost": 40,
+    "movement": 5,
+    "strength": 1,
+    "range": 1,
+    "rangedStrength": 1,
+    "cost": 60,
     "uniques": [
       "[+175]% Strength <when attacking>",
-      "[+1] Sight",
+      "[+4] Sight",
+      "Can see over obstacles",
       "Can carry [2] [Ballistic] units"
     ],
     "attackSound": "torpedo",
