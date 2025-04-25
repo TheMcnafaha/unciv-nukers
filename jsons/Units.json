@@ -81,7 +81,7 @@
     "strength": 80,
     "rangedStrength": 40,
     "range": 3,
-    "cost": 20,
+    "cost": 10,
     "uniques": ["Earn [20]% of killed [Wounded] unit's [Cost] as [Gold]"],
     "attackSound": "missile",
     "uniqueTo": "Nukers"
@@ -93,7 +93,7 @@
     "strength": 200,
     "rangedStrength": 120,
     "range": 6,
-    "cost": 100,
+    "cost": 30,
     "uniques": ["Earn [100]% of killed [Wounded] unit's [Cost] as [Gold]"],
     "requiredTech": "Metal Casting",
     "requiredResource": "Iron",
@@ -109,7 +109,7 @@
     "range": 8,
     "cost": 200,
     "uniques": [
-      "Earn [250]% of killed [Wounded] unit's [Cost] as [Gold]",
+      "Earn [777]% of killed [Wounded] unit's [Cost] as [Gold]",
       "Consumes [1] [Gold Ore]"
     ],
     "requiredTech": "Electricity",
